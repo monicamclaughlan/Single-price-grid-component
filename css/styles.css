@@ -1,0 +1,96 @@
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 10% 25% 10%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 3%;
+}
+
+#top-section {
+  background-color: #fff;
+  font-family: 'Karla', sans-serif;
+  border-radius: 3%;
+  padding: 5% 7% 5%;
+  text-align: left;
+}
+
+.title-text {
+  color: hsl(179, 62%, 43%);
+}
+
+.title-body {
+  color: hsl(71, 73%, 54%);
+}
+
+.title-description {
+  color: hsl(218, 22%, 67%);
+  line-height: 1;
+}
+
+.left-column {
+  background-color: hsl(179, 62%, 43%);
+  flex-grow: 1;
+}
+
+#left-section {
+  background-color: hsl(179, 62%, 43%);
+  border-radius: 0 0 0 3%;
+  font-family: 'Karla', sans-serif;
+  text-align: left;
+  padding: 10% 13% 4%;
+}
+
+.left-title {
+  color: hsl(204, 43%, 93%);
+}
+
+.month-cost {
+  font-size: 2rem;
+  color: hsl(204, 43%, 93%);
+  padding: 1%;
+}
+
+.left-text {
+  color: hsl(204, 43%, 93%);
+}
+
+.button {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 12px 95px;
+  font-family: 'Karla', sans-serif;
+  color: hsl(204, 43%, 93%);
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 5px;
+  border: none;
+}
+
+#right-section {
+  background-color: #2cbab8;
+  flex-grow: 1;
+  border-radius: 0 0 3% 0;
+  font-family: 'Karla', sans-serif;
+  color: hsl(204, 43%, 93%);
+  padding: 5% 5% 4%;
+}
+
+.right-text {
+  font-size: 0.8rem;
+  line-height: 0.5;
+}
+
+@media (max-width:500px) {
+  #right-section {
+    flex-grow: 1;
+    padding: 3% 0 3% 7%;
+  }
+
+  #left-section {
+    flex-grow: 1;
+    padding: 3% 3% 3% 3%;
+  }
+
+  .button {
+    padding: 12px 60px;
+  }
+}
